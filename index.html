@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <meta name="application-name" content="Naresh-Portfolio" />
+  <meta name="description" content="a Web-developer & designer ready to hire in your Company">
+  <title>Naresh C - a web developer & designer -About</title>
+  <!-- Bootstrap 4 cdn CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <!-- Web Icon -->
+  <link rel="icon" href="icon.ico">
+
+  <!-- Boostrap 4 cdn JS -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Fondamento:ital@1&family=Sacramento&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Sahitya:wght@700&family=Ubuntu&display=swap" rel="stylesheet">
+  <!-- Font Awesome -->
+  <script src="https://kit.fontawesome.com/82ac9830dc.js" crossorigin="anonymous"></script>
+  <!-- CSS StyleSheet -->
+  <link rel="stylesheet" href="css/styles.css">
+
+  <!-- Inline CSS -->
+  <style media="screen">
+    @media only screen and (max-width : 600px ) {
+      h2{
+        font-size:30px;
+      }
+      h3{
+        font-size:20px;
+      }
+      .mountain,.profile-img{
+        width:50%;
+        height:50%;
+      }
+      .b-smile,.b-cloud{
+        display:none;
+      }
+      .my-description{
+        font-size:15px;
+      }
+    }
+  </style>
+
+</head>
+
+<body>
+  <header>
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-grey">
+      <img class="navbar-brand" src="icon.ico"></img>
+      <button class="navbar-toggler bg-dark " type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse bg-grey" id="navbarCollapse">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <form action="/home" method="post">
+              <button class="nav-link btn text-dark hovering"> Home</button>
+            </form>
+          </li>
+          <li class="nav-item">
+            <form class="" action="#skill-container" >
+              <button class="nav-link btn text-dark hovering">Skills</button>
+            </form>
+          </li>
+          <li class="nav-item">
+            <form class="" action="/projects" method="post">
+              <button class="nav-link btn text-dark hovering"> Projects </button>
+            </form>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <!-- ____________________Top Container_______________________ -->
+  <div class="Top-Container">
+    <div>
+      <img class="t-cloud" src="Images/cloud.png" alt="cloud-img">
+      <div>
+        <img class="t-smile" src="Images/smile.png" alt="smile">
+      </div>
+    </div>
+    <h1 class="Name">I'm Naresh .</h1>
+    <h3 class="description">a web developer and designer.</h3>
+    <div>
+      <img class="b-cloud" src="Images/cloud.png" alt="cloud-img">
+      <img class="b-smile" src="Images/smile.png" alt="smile-img">
+    </div>
+    <img class="mountain" src="Images/mountain.png" alt="Mountain-img">
+  </div>
+  <div class="middle-container">
+    <div class="profile">
+      <img class="profile-img" src="Images/profile1.png" alt="Profile">
+      <div class="profile-description">
+        <h2>Hi.</h2>
+        <p class="my-description" >I'm a web developer/designer based in Chennai,India.I have passion for web designs and I ❤ to build web apps for any devices.</p>
+      </div>
+    </div>
+    <hr>
+
+    <!-- ________________________________More About Me________________________________     -->
+    <div class="skills">
+      <h2>What I can do.</h2>
+      <div class="skill-row">
+        <img class="dev-img" src="Images/Web-dev.jpg" alt="Image">
+        <div class="skill-description">
+          <h3>Build what you want.</h3>
+          <p>I like to keep things simple and legiable.I know how to create your website to run across devices using the latest Technologies available.</p>
+        </div>
+      </div>
+      <div class="skill-row">
+        <img class="des-img" src="Images/Web-des.jpg" alt="Image">
+        <div class="skill-description">
+          <h3>Design what you need.</h3>
+          <p>I ❤ to design app with my all creative ideas.My Goals are to focus on typography,content and conveying the message that you want to send.</p>
+        </div>
+      </div>
+  </div>
+  <hr>
+
+  <!-- ________________________Skill Container_______________________ -->
+
+  <div id="skill-container">
+      <h2>Skills acquired</h2>
+      <div class="fluid-container row ">
+        <div class="col-lg-6 col-sm-12 ">
+
+        <!-- Languages Known -->
+
+
+          <h3>Languages</h3>
+          <div class="row">
+            <div class=" col-6 ">
+              <p>HTML5</p>
+            </div>
+            <div class="col-6">
+              <span class="fas fa-star"></span><span class="fas fa-star"></span><span class="fas fa-star"></span><span class="fas fa-star"></span><span class="far fa-star"></span>
+            </div>
+          </div>
+          <div class="row">
+            <div class=" col-6 ">
+              <p>CSS</p>
+            </div>
+            <div class="col-6">
+              <span class="fas fa-star"></span><span class="fas fa-star"></span><span class="fas fa-star"></span><span class="fas fa-star-half-alt"></span><span class="far fa-star"></span>
+            </div>
+          </div>
+          <div class="row">
+            <div class=" col-6 ">
+              <p>JS</p>
+            </div>
+            <div class="col-6">
+              <span class="fas fa-star"></span><span class="fas fa-star"></span><span class="fas fa-star"></span><span class="fas fa-star"></span><span class="far fa-star"></span>
+            </div>
+          </div>
+          <div class="row">
+            <div class=" col-6 ">
+              <p>Python & Django</p>
+            </div>
+            <div class="col-6">
+              <span class="fas fa-star"></span><span class="fas fa-star"></span><span class="fas fa-star-half-alt"></span><span class="far fa-star"></span><span class="far fa-star"></span>
+            </div>
+          </div>
+          <div class="row">
+            <div class=" col-6 ">
+              <p>Node.JS</p>
+            </div>
+            <div class="col-6">
+              <span class="fas fa-star"></span><span class="fas fa-star"></span><span class="fas fa-star"></span><span class="fas fa-star"></span><span class="far fa-star"></span>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6 col-sm-12 ">
+
+          <!-- Frameworks -->
+
+
+          <h3>Frameworks</h3>
+          <div class="row">
+            <div class=" col-6 ">
+              <p>Bootstrap 4</p>
+            </div>
+            <div class="col-6">
+              <span class="fas fa-star"></span><span class="fas fa-star"></span><span class="fas fa-star"></span><span class="fas fa-star"></span><span class="fas fa-star-half-alt"></span>
+            </div>
+          </div>
+          <div class="row">
+            <div class=" col-6 ">
+              <p>Express.JS</p>
+            </div>
+            <div class="col-6">
+              <span class="fas fa-star"></span><span class="fas fa-star"></span><span class="fas fa-star-half-alt"></span><span class="far fa-star"></span><span class="far fa-star"></span>
+            </div>
+          </div>
+          <div class="row">
+            <div class=" col-6 ">
+              <p>JQuery</p>
+            </div>
+            <div class="col-6">
+              <span class="fas fa-star"></span><span class="fas fa-star"></span><span class="fas fa-star"></span><span class="far fa-star"></span><span class="far fa-star"></span>
+            </div>
+          </div>
+          <div class="row">
+            <div class=" col-6 ">
+              <p>React.JS</p>
+            </div>
+            <div class="col-6">
+              <span class="fas fa-star"></span><span class="fas fa-star"></span><span class="fas fa-star"></span><span class="far fa-star"></span><span class="far fa-star"></span>
+            </div>
+      </div>
+    </div>
+  </div>
+  <hr>
+
+  <!-- __________________________Contact Me form__________________________  -->
+
+  <div class="contact-me">
+    <h2>Get In Touch</h2>
+    <h3 class="contact-head">I'm Currently look forward your company.</h3>
+    <div class="contact-description">
+      <p>If you are looking for web developer. I'm here to work with your company. </p>
+    </div>
+      <a class="message-me" href="mailto:nareshkumawat2003@gmail.com">Message Me</a>
+    </div>
+  </div>
+  <!--_____________________bottom Container_______________________ -->
+
+  <div class="bottom-container">
+    <a class="footer-link text-grey" href="https://www.instagram.com/silent_.violent._eyes/"><i class="fab fa-instagram text-dark"></i> Instagram</a>
+    <a class="footer-link text-grey" href="https://github.com/Naresh1435/"><i class="fab fa-github text-dark "></i> GitHub</a>
+    <p class="copyright">© 2020 Naresh.</p>
+  </div>
+
+</body>
+</html>
